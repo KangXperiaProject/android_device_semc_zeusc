@@ -16,5 +16,8 @@ TARGET_TOUCHPAD_INPUT_DEVICE_ID := 0x10003
 
 BOARD_USES_STEREO_HW_SPEAKER := true
 
+#Recovery
+TARGET_RECOVERY_INITRC := device/semc/zeusc/recovery/init.rc
+
 TARGET_OTA_ASSERT_DEVICE := R800x,zeusc
 
